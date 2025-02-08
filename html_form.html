@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "//W3C//DTD XHTML 10 Transitional//EN" >
+<html>
+    <head>
+        <title>
+           HTML Table
+        </title>
+        <meta name = "description" content = "This website demonsteare the HTML  simple table " />
+        <meta name = "keywords" content = "html, web design, design, html table" />
+        <meta name = "author" content = "Xenon" />
+        <meta http - - equiv = "refresh" content = "5" url = "http://www.google.com" />
+        <!--This is Javascript-->
+        <script>
+
+        </script>
+    </head>
+    <body>
+        <h2> Order Form </h2>
+<form name="Order-form" method="post" action="order-form.php">
+<fieldset>
+    <legend>Client Details</legend>
+    <label for="f-name"> First Name </label>
+    <input type="text" name="fname" id="f-name" value=""/>
+    <label for="l-name"> Last Name </label>
+    <input type="password" name="lname" id="l-name" value=""/>
+</fieldset>
+<br />
+<fieldset>
+    <legend>Select Product Type</legend>
+    <input type="checkbox" name="fruit" value="apple"/>
+    <label for="apple"> apple </label>
+    <input type="checkbox" name="fruit" value="orange"/>
+    <label for="orange"> orange </label>
+    <input type="checkbox" name="fruit" value="lemon"/>
+    <label for="lemon"> lemon </label>
+</fieldset><br />
+<fieldset>
+    <input type="radio" name="n-title" value="pack"/>
+    <label for="n-title"> Package </label>
+    <input type="radio" name="n-title" value="indi"/>
+    <label for="n-title"> Individual </label>
+</fieldset><br />
+
+<fieldset>
+    <legend>Delivery Location</legend>
+    <label for="country"> Country </label>
+    <select name="country">
+    <option value="mm" selected="selected"> Myanmar </option>
+    <option value="cn"> China </option>
+    <option value="th"> Thai </option>
+    </select>
+    <label for="city"> City </label>
+    <select name="city" multiple="multiple">
+    <option value="ygn" selected="selected"> Yangon </option>
+    <option value="mdy"> Mandalay </option>
+    <option value="npt"> NayPyiTaw </option>
+    </select>
+</fieldset><br />
+<fieldset>
+    <legend>Order Details</legend>
+    <label for="Quantity"> Quantity </label>
+    <input type="text" id="Quantity"/>
+    <input type="file" name="photo"/> <br><br />
+    <label for="Remarks"> Remarks </label>
+    <textarea cols="30" rows="5" id="Remarks">Please enter the detail of product
+    </textarea>
+</fieldset> <br />
+    <input type="submit" name="submitBtn" value="Apply Now"/>
+    <input type="reset" name="resetBtn" value="Reset Form"/>
+</form>
+
+    </body>
+    </html>
